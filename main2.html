@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FCC: Survey Form
+        </title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main2.css">
+    </head>
+    <Body>
+        <main id="main">
+            <h1 id="title">iTeach Survey</h1>
+            <p id="description">Please help us improve our services by taking the following survey.</p>
+            <form id="survey-form" action="">
+                <div class="forms">
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="text" class="control" placeholder="Lastname first" name="name" required>
+                </div>
+                <div class="forms">
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" class="control" Name="email" placeholder="Eg, someone@somewhere.com" required>
+                </div>
+                <div class="forms">
+                    <label id="number-label" for="number">Age</label>
+                    <input id="number" type="number" class="control" name="age" placeholder="Age" min="10" max="100">
+                </div>
+                <div class="forms">
+                <p>Please select your present level of education</p>
+                    <select name="education" class="control" id="dropdown" required>
+                        <option disabled selected value>Select your level of education</option>
+                        <option value="O'Level">O' Level</option>
+                        <option value="A'Level">A' level</option>
+                        <option value="Bachelors">B.Sc, B.Eng, B.Arts, B.Ed</option>
+                        <option value="masters">M.Sc, MBA</option>
+                        <option value="Doctorate">P.hD</option>
+                    </select>
+                </div>
+                <div class="forms">
+                    <p>Would you recommend iTeach to a friend?</p>
+                    <label for="definitely"><input name="recommend" value="definitely" type="radio" class="recommend" checked="">Definitely</label>
+                    <label for="maybe"><input name="recommend" value="maybe" type="radio" class="recommend">Maybe</label>
+                    <label for="not-sure"><input name="recommend" value="not-sure" type="radio" class="recommend">Not sure</label>
+                </div>
+                <div class="forms">
+                    <p>
+                    What feature are you looking forward to see from iTeach?
+                    </p>
+                    <select id="features" name="feature" class="control" required="">
+                    <option disabled="" selected="" value="">Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                    </select>
+                    </div>
+                <div class="forms">
+                    <p>Which of the following skill would you like to learn<sub>(check all that apply)</sub></p>
+                        <label for="Web Development">
+                            <input type="checkbox" name="skills" value="web-developemnt" class="skills">Web Development
+                        </label>
+                        <label for="Web Design">
+                            <input type="checkbox" name="skills" value="web-design" class="skills">Web desgin
+                        </label>
+                        <label for="Excel">
+                            <input type="checkbox" name="skills" value="excel" class="skills">Excel
+                        </label>
+                        <label for="Graphics Design">
+                            <input type="checkbox" name="skills" value="graphics-design" class="skills">Graphics Design
+                        </label>
+                        <label for="Data Analysing">
+                            <input type="checkbox" name="skills" value="data-analysing" class="skills">Data Analysing
+                        </label>
+                        <label for="Photography">
+                            <input type="checkbox" name="skills" value="photography" class="skills">Photography
+                        </label>
+                        <label for="Copywriting">
+                            <input type="checkbox" name="skills" value="copywriting" class="skills">Copywriting
+                        </label>
+                </div>
+                <div class="forms">
+                    <p>Any comment or suggestions?</p>
+                    <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <div class="forms">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </main>   
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+    </Body>
+</html>

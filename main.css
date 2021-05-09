@@ -1,0 +1,46 @@
+body{
+    background-color:  rgb(196, 188, 188);
+}
+#main{
+    display: block;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#title{
+    font-family: 'Lobster', monospace;
+    font-size: 3.6rem;
+}
+#img-div{
+    display: block;
+    background: rgb(253, 255, 245);
+    padding: 10px;
+    margin: 50px;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#img-caption{
+    margin: 15px 0 5px 0;
+}
+#tribute-info{
+    display: block;
+    text-align: center;
+}
+p{
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    text-align: justify;
+    line-height: 1.6;
+}
+ul{
+    max-width: 750px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
